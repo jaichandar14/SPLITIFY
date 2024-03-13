@@ -14,12 +14,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_10sdp"
         android:padding="15dp"
         tools:context=".ui.homescreen.MainActivity">
-        <!--<TextView-->
-        <!--    android:layout_width="match_parent"-->
-        <!--    android:layout_height="match_parent"-->
-        <!--    android:id="@+id/name"/>-->
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="@dimen/_35sdp"
@@ -42,6 +40,7 @@
             android:id="@+id/pagetitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
             android:text="@string/monthly_expense_tracker"
             android:textColor="@color/liteblue"
             android:textSize="@dimen/_20ssp"
@@ -50,9 +49,11 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
         <LinearLayout
+            android:layout_marginTop="@dimen/_10sdp"
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_10sdp"
             android:weightSum="2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -132,7 +133,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_2sdp"
-            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_35sdp"
             android:text="@string/spend_by"
             android:textAlignment="textStart"
             android:textColor="@color/black"
@@ -146,7 +147,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_2sdp"
-            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
             android:text="@string/jai_25888"
             android:textAlignment="textStart"
             android:textColor="@color/liteblue"
@@ -160,7 +161,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/_5sdp"
-            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_50sdp"
             android:background="@drawable/buttonstyle"
             android:padding="@dimen/_8sdp"
             android:text="@string/show_expenses"
